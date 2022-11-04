@@ -1,0 +1,7 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<app-srinu-child
+  [datafromParent]="parenttochild"
+  (sendDataToParent)="incomingFromChild($event)"
+  (sendDataToParentA)="incomingFromChildA()"
+></app-srinu-child>
